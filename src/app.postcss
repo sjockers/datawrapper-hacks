@@ -1,0 +1,41 @@
+/*
+	CSS Variables For Theming
+	https://github.com/hakimel/reveal.js/blob/master/css/theme/template/exposer.scss
+*/
+
+@import '@fontsource/roboto';
+@import '@fontsource/roboto-mono';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+	--r-main-font: 'Roboto';
+	--r-heading-font: 'Roboto';
+	--r-code-font: 'Roboto Mono';
+	--r-link-color: #1d81a2;
+	--r-link-color-hover: #1d81a2;
+}
+
+.hljs {
+	background: none;
+}
+
+.hljs-title,
+.hljs-keyword {
+	font-weight: normal;
+}
+
+.reveal pre,
+.reveal code {
+	overflow: hidden !important;
+}
+
+.reveal pre {
+	box-shadow: none;
+}
+
+small {
+	margin-top: 1em;
+}
