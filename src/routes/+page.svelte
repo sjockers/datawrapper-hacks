@@ -1,5 +1,5 @@
 <script lang="ts">
-	import Slides from '$lib/deck/slides.svelte'
+	import Slides from '../slides/index.svelte'
 	import '../app.postcss'
 </script>
 
