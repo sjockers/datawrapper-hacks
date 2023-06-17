@@ -1,10 +1,11 @@
 <script lang="ts">
+	import { base } from '$app/paths'
 	import Slide from '../lib/deck/slide.svelte'
 	import Code from '../lib/deck/code.svelte'
 </script>
 
 <Slide>
-	<Slide backgroundVideo="/assets/annotations-index.mp4" backgroundSize="contain" animate>
+	<Slide backgroundVideo="{base}/assets/annotations-index.mp4" backgroundSize="contain" animate>
 		<h2 class="fragment fade-out">
 			<b class="font-bold px-3 bg-cyan-500 text-white">Annotations & HTML</b>
 		</h2>
@@ -70,6 +71,7 @@
 
 		<img
 			src="//d33v4339jhl8k0.cloudfront.net/docs/assets/588089eddd8c8e484b24e90a/images/5ca738920428633d2cf480aa/file-eHw0tm9z9I.gif"
+			alt=""
 		/>
 
 		<small>
@@ -117,7 +119,11 @@
 
 	<Slide animate>
 		<h3>Tab-Navigation zwischen Charts</h3>
-		<img src="/assets/taz-tab-links.jpg" alt="" style="margin: 0 auto; height: 400px !important" />
+		<img
+			src="{base}/assets/taz-tab-links.jpg"
+			alt=""
+			style="margin: 0 auto; height: 400px !important"
+		/>
 		<small> Taz: Internes Tool für Tab-Navigation (eingesendet von Lalon Sander) </small>
 	</Slide>
 
@@ -172,7 +178,7 @@
 	<Slide animate>
 		<h3>Bilder einfügen</h3>
 		<img
-			src="/assets/ntv-image-embed.png"
+			src="{base}/assets/ntv-image-embed.png"
 			alt=""
 			style="margin: 0 auto; height: 400px !important"
 		/>

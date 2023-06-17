@@ -1,9 +1,10 @@
 <script lang="ts">
+	import { base } from '$app/paths'
 	import Slide from '../lib/deck/slide.svelte'
 </script>
 
 <Slide>
-	<Slide backgroundImage="/assets/automation-index.png">
+	<Slide backgroundImage="{base}/assets/automation-index.png">
 		<h2><b class="font-bold px-3 bg-cyan-500 text-white">Automation & Integration</b></h2>
 	</Slide>
 
@@ -19,7 +20,7 @@
 
 	<Slide>
 		<h3>Grafiken für Regionen</h3>
-		<img src="/assets/automation-zeit-dropdown.png" alt="" />
+		<img src="{base}/assets/automation-zeit-dropdown.png" alt="" />
 		<small>
 			<a href="https://www.zeit.de/wissen/2022-09/duerre-klimakrise-entwicklung-daten-uebersicht">
 				Zeit Online: So stark ist Ihre Region von Dürre betroffen

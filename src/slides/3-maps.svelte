@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { base } from '$app/paths'
 	import Slide from '../lib/deck/slide.svelte'
 </script>
 
@@ -10,8 +11,12 @@
 	</Slide>
 
 	<Slide backgroundColor="#FAB17C">
-		<h3>2000 Karten!</h3>
-		<img src="/assets/maps-index.gif" alt="" style="margin: 0 auto; width: 500px !important" />
+		<h3>3000 Karten!</h3>
+		<img
+			src="{base}/assets/maps-index.gif"
+			alt=""
+			style="margin: 0 auto; width: 500px !important"
+		/>
 	</Slide>
 
 	<Slide>
@@ -56,7 +61,7 @@
 
 	<Slide>
 		<img
-			src="/assets/maps-choropleth-mannheim.png"
+			src="{base}/assets/maps-choropleth-mannheim.png"
 			alt=""
 			style="margin: 0 auto; width: 500px !important"
 		/>
@@ -112,7 +117,7 @@
 		</small>
 	</Slide>
 
-	<Slide backgroundImage="/assets/geojson.png" backgroundSize="contain">
+	<Slide backgroundImage="{base}/assets/geojson.png" backgroundSize="contain">
 		<h2 class="fragment fade-out">
 			<b class="font-bold px-3 bg-cyan-500 text-white">geojson.io</b>
 		</h2>

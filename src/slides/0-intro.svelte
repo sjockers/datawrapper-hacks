@@ -1,5 +1,6 @@
 <script lang="ts">
 	import Slide from '../lib/deck/slide.svelte'
+	import { base } from '$app/paths'
 </script>
 
 <Slide>
@@ -28,7 +29,7 @@
 				</ul>
 			</div>
 			<div class="w-1/2 pl-5">
-				<img src="/assets/myspace.gif" alt="Hit me up on MySpace!" />
+				<img src="{base}/assets/myspace.gif" alt="Hit me up on MySpace!" />
 			</div>
 		</div>
 	</Slide>
