@@ -111,4 +111,10 @@
 			</li>
 		</ul>
 	</Slide>
+
+	<Slide backgroundIframe="https://notes.datawrapper.de/p/hacks" backgroundInteractive={true}>
+		<b class="inline-block px-2 mt-2 bg-cyan-500 text-white fragment fade-out"
+			>notes.datawrapper.de/p/hacks</b
+		>
+	</Slide>
 </Slide>
