@@ -82,7 +82,7 @@
 	</Slide>
 
 	<Slide>
-		<h3>Tab-Navigation zwischen Charts</h3>
+		<h3>Tab-Navigation zwischen&nbsp;Charts</h3>
 
 		<iframe
 			title="Anteil der positiv auf das Coronavirus getesteten Engländer"
@@ -102,7 +102,7 @@
 	</Slide>
 
 	<Slide backgroundColor="black" animate>
-		<h3>Tab-Navigation zwischen Charts</h3>
+		<h3>Tab-Navigation zwischen&nbsp;Charts</h3>
 		<h3>
 			<Code id="code">
 				{`
@@ -118,7 +118,7 @@
 	</Slide>
 
 	<Slide animate>
-		<h3>Tab-Navigation zwischen Charts</h3>
+		<h3>Tab-Navigation zwischen&nbsp;Charts</h3>
 		<img
 			src="{base}/assets/taz-tab-links.jpg"
 			alt=""

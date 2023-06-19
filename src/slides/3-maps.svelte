@@ -20,14 +20,14 @@
 	</Slide>
 
 	<Slide>
-		<h3>Kartogramm [Choroplethen-Karte]</h3>
+		<h3>Kartogramm [Choroplethen&#8209;Karte]</h3>
 		<iframe
 			id="datawrapper-chart-MJsiM"
 			title="Cartogram"
 			class="mx-auto"
 			data-src="//datawrapper.dwcdn.net/MJsiM/9/"
 			scrolling="no"
-			height="500"
+			height="450"
 			width="480"
 			frameborder="0"
 		/>

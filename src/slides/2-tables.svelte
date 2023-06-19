@@ -99,9 +99,11 @@
 			height="450"
 			frameborder="0"
 		/>
-		<a href="https://academy.datawrapper.de/article/308-how-to-create-a-heatmap">
-			Dokumentation: Tabellen als Heatmaps
-		</a>
+		<small>
+			<a href="https://academy.datawrapper.de/article/308-how-to-create-a-heatmap">
+				Dokumentation: Heatmaps
+			</a>
+		</small>
 	</Slide>
 
 	<Slide>

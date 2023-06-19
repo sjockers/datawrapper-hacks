@@ -5,13 +5,13 @@
 
 <Slide>
 	<Slide>
-		<h2>
+		<h3>
 			<span class="font-bold normal-case"> Die besten </span>
 			<b class="font-bold normal-case px-3 bg-cyan-500 text-white"> Datawrapper-Hacks </b>
 			<span class="font-bold normal-case block">
 				für Datenprofis (und alle, die es werden wollen) 📈🔥
 			</span>
-		</h2>
+		</h3>
 	</Slide>
 
 	<Slide backgroundIframe="https://www.datawrapper.de/charts" backgroundInteractive />
